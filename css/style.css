@@ -1,0 +1,33 @@
+.navparent{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+}
+.logo {
+    width: 20%;
+}
+.logo img{
+    display: flex;
+    margin: 0% auto;
+}
+.navitem{
+    width: 60%;
+    align-items: center;
+}
+.navitem ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 13px;
+
+}
+.button{
+    width: 20%;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 32px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
