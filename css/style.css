@@ -31,3 +31,87 @@ button{
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
+.section1parent{
+    display: flex;
+    width: 100%;
+    margin: 65px 0 65px 0;
+}
+.section1child1{
+    width: 50%;
+    padding: 100px 80px 135px 165px;
+}
+.section1child1 h1{
+    font-size: 55px;
+}
+.section1child1 p{
+    margin: 25px 0 40px 0;
+    font-size: 18px;
+}
+.butoninfo{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+}
+.butoninfo p{
+    margin: 0px;
+}
+.butoninfo button{
+    width: 50%;
+}
+.section1child2{
+    width: 50%;
+    margin-left: 28px;
+}
+.cards{
+    width: 340px;
+}
+.circleparent{
+    display: flex;
+    margin-bottom: 15px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.circleparent h3{
+    margin: 10px 0 0 15px;
+    font-size: 18px;
+}
+.cardsparent{
+    background-color: #F3F3F3;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    padding: 65px 0 65px 0;  
+}
+.section3parent{
+    padding:150px 95px 150px 95px ;
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+}
+.section3child1 {
+    width: 50%;
+    margin-left: 80px;
+}
+.section3child2{
+    width: 50%;
+}
+.section3child2 h2{
+    color: #FFFFFF;
+    font-size: 27px;
+    padding: 90px 50px 20px 50px;
+}
+.section3child2 p{
+    color: #FFFFFF;
+    padding: 0 50px 0 50px;
+    margin-bottom: 20px;
+}
+.section3child2 li{
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding-left: 50px;
+}
