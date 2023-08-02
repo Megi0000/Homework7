@@ -115,3 +115,43 @@ button{
     margin-top: 10px;
     padding-left: 50px;
 }
+.section img{
+    width: 100%;
+}
+.section{
+    background-color: #000000;
+}
+.footerparent{
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+    padding: 96px 150px 96px 150px;
+}
+ .fchild1{
+    width: 20%;
+ }
+  .fchild2{
+    width: 20%;
+ }
+  .fchild3{
+    width: 20%;
+ }
+  .fchild4{
+    width: 20%;
+ }
+  .fchild5{
+    width: 20%;
+ }
+ .footerparent h3{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+ }
+.footerparent li{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footerparent p{
+    color: #ffffff70;
+}
+
