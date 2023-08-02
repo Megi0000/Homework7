@@ -19,7 +19,7 @@
     gap: 25px;
     justify-content: center;
     margin-top: 13px;
-
+    font-family: 'Inter', sans-serif;
 }
 .button{
     width: 20%;
@@ -30,6 +30,7 @@ button{
     border-radius: 32px;
     background-color: #000000;
     color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
 }
 .section1parent{
     display: flex;
@@ -40,20 +41,23 @@ button{
     width: 50%;
     padding: 100px 80px 135px 165px;
 }
-.section1child1 h1{
+.section1child1 h2{
     font-size: 55px;
+    font-family: 'Poppins', sans-serif;
 }
 .section1child1 p{
     margin: 25px 0 40px 0;
     font-size: 18px;
+    font-family: 'Inter', sans-serif;
 }
 .butoninfo{
     display: flex;
-    width: 80%;
+    width: 90%;
     gap: 20px;
 }
 .butoninfo p{
     margin: 0px;
+    font-weight: 600;
 }
 .butoninfo button{
     width: 50%;
@@ -69,6 +73,9 @@ button{
     display: flex;
     margin-bottom: 15px;
 }
+.cardsparent p{
+    font-family: 'Inter', sans-serif;
+}
 .circle{
     width: 40px;
     height: 40px;
@@ -78,6 +85,7 @@ button{
 .circleparent h3{
     margin: 10px 0 0 15px;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 .cardsparent{
     background-color: #F3F3F3;
@@ -87,6 +95,7 @@ button{
     justify-content: center;
     padding: 65px 0 65px 0;  
 }
+
 .section3parent{
     padding:150px 95px 150px 95px ;
     display: flex;
@@ -102,18 +111,22 @@ button{
 }
 .section3child2 h2{
     color: #FFFFFF;
-    font-size: 27px;
+    font-size: 22px;
     padding: 90px 50px 20px 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 .section3child2 p{
     color: #FFFFFF;
     padding: 0 50px 0 50px;
     margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
 }
 .section3child2 li{
     color: #FFFFFF;
     margin-top: 10px;
     padding-left: 50px;
+    font-family: 'Inter', sans-serif;
 }
 .section img{
     width: 100%;
@@ -145,13 +158,16 @@ button{
  .footerparent h3{
     color: #FFFFFF;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
  }
 .footerparent li{
     color: #FFFFFF;
     font-size: 14px;
     margin-top: 10px;
+    font-family: 'Inter', sans-serif;
 }
 .footerparent p{
     color: #ffffff70;
+    font-family: 'Inter', sans-serif;
 }
 
