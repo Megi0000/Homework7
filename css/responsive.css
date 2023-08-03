@@ -1,0 +1,42 @@
+@media (max-width: 1024px) and (min-width:744px){
+    .section1parent{
+        flex-direction: column;
+    }
+    .section1child1{
+        width: 100%;
+        text-align: center;
+    }
+    .butoninfo{
+        align-items: center;
+        justify-content: center;
+    }
+    .butoninfo button{
+        width: 100px;
+    }
+    .section1child2{
+        width: 100%;
+    }
+    .section1child2 img{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .cards{
+        width: 30%;
+    }
+    .section3parent{
+        flex-direction: column;
+    }
+    .section3child1{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .section3child1 img{
+       width:800px;   
+       height: 550px; 
+    }
+    .section3child2{
+        width: 100%;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+}
