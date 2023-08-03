@@ -1,3 +1,23 @@
+@media (min-width:1024px){
+    .section1parent{
+        width: 100%;
+    }
+    .section1child1{
+        padding: 60px 20px 0 40px;
+    }
+    .cardsparent{
+        padding:60px 20px 60px 20px;
+    }
+    .section3child1 img{
+        width: 100%;
+    }
+    .section3child2 h2{
+        padding: 40px;
+    }
+
+}
+
+
 @media (max-width: 1024px) and (min-width:744px){
     .section1parent{
         flex-direction: column;
@@ -31,12 +51,25 @@
         margin: 0px auto;
     }
     .section3child1 img{
-       width:800px;   
-       height: 550px; 
+       width:100%;   
     }
     .section3child2{
-        width: 100%;
-        flex-direction: row;
+        width: 100%;;
         padding-top: 20px;
     }
+    .footerparent{
+        flex-direction: column;
+        padding: 50px ;
+    }
+    .linkparent{
+        margin-top: 45px;
+        width: 100%;
+        gap: 70px;
+    }
+    .fchild5{
+        display: none;
+    }
+}
+@media (max-width: 744px) and (min-width:375px){
+
 }

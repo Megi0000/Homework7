@@ -203,4 +203,11 @@ button{
     color: #ffffff70;
     font-family: 'Inter', sans-serif;
 }
-
+.fchild1{
+    width: 20%;
+}
+.linkparent{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+}
